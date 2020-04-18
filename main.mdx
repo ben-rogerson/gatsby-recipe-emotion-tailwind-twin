@@ -1,0 +1,46 @@
+# Setup Gatsby with 🦹‍♂️ Twin + 👩‍🎤 Emotion
+
+[🦹‍♂️ Twin](https://github.com/ben-rogerson/twin.macro) lets you use Tailwind classes within any CSS-in-JS library.
+
+[👩‍🎤 Emotion](https://emotion.sh/) is a powerful CSS-in-JS library that supports both inline CSS styles and styled components. You can use each styling feature individually or together in the same file.
+
+---
+
+Install the necessary NPM packages
+
+<NPMPackage name="twin.macro" />
+<NPMPackage name="gatsby-plugin-emotion" />
+<NPMPackage name="@emotion/core" />
+<NPMPackage name="@emotion/styled" />
+
+---
+
+Install the Emotion plugin in gatsby-config.js
+
+<GatsbyPlugin name="gatsby-plugin-emotion" />
+
+---
+
+Import the Tailwind base styles using Gatsby browser
+
+<File
+  path="gatsby-browser.js"
+  content="https://gist.githubusercontent.com/ben-rogerson/6ab25a7ed7928fa5f18d63dc138c25e7/raw/c182a3cffcab121fc34a936b7acc29c462e0acda/gatsby-browser.js"
+/>
+
+---
+
+That's it, now it's ready to go!
+
+We'll also create an example page to play with Twin and Emotion.
+
+<File
+  path="src/pages/twin-emotion-example.js"
+  content="https://gist.githubusercontent.com/ben-rogerson/6ab25a7ed7928fa5f18d63dc138c25e7/raw/c182a3cffcab121fc34a936b7acc29c462e0acda/twin-emotion-example.js"
+/>
+
+---
+
+Read more about Twin in the repo readme:
+
+https://github.com/ben-rogerson/twin.macro
