@@ -31,8 +31,6 @@ Start your development server
 npm run start
 # or
 yarn start
-# or
-gatsby start
 ```
 
 Then view the demo at [/twin-emotion-example](http://localhost:8000/twin-emotion-example)
