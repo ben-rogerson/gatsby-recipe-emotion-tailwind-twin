@@ -22,7 +22,7 @@ cd gatsby-emotion-twin
 Start the Gatsby recipe:
 
 ```bash
-gatsby recipes https://gist.githubusercontent.com/ben-rogerson/6ab25a7ed7928fa5f18d63dc138c25e7/raw/twin-emotion-recipe.mdx
+gatsby recipes https://raw.githubusercontent.com/ben-rogerson/gatsby-recipe-emotion-twin/master/main.mdx
 ```
 
 Start your development server
